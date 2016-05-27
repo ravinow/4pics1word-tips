@@ -36,7 +36,7 @@ GuessWord.listWords("*****", "DLKSQEIOUCNM")
 			.forEach(System.out::println);
 ```
 
-## Use another dictionary:
+## Use Another Dictionary:
 
 By default, the program will use its builtin English-Chinese dictionary, which contains approximately 100k words. You can explicitly specify the dictionary you would like to use if the desired word isn't included.
 
