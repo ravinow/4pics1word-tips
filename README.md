@@ -6,15 +6,13 @@ Generate words from dictionary for the popular iOS game *4 Pics 1 Word*!
 
 `java -jar guess-word-1.0.jar '*****' DLKSQEIOUCNM`
 
-Parameter 1 '*****' represents the target word having 5 letters and these letters can be anything
+Parameter 1 `'*****'` represents the target word having 5 letters and these letters can be anything. If you've already got a tip on a letter, you can specify it like: `'*A**E'`.
 
 Parameter 2 'DLKSQEIOUCNM' represents the letters given to form the word
 
-If you've already got a tip on a letter, you can specify it in the word template:
+## Running Prerequisite
 
-`java -jar guess-word-1.0.jar '*A**' DLKSQEIOUCNM`
-
-Running Prerequisite: JRE 8 installed
+JRE 8 installed
 
 ## Result:
 
