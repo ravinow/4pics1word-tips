@@ -10,7 +10,11 @@ Parameter 1 '*****' represents the target word having 5 letters and these letter
 
 Parameter 2 'DLKSQEIOUCNM' represents the letters given to form the word
 
-Require: **JRE 8**
+If you've already got a tip on a letter, you can specify it in the word template:
+
+`java -jar guess-word-1.0.jar '*A**' DLKSQEIOUCNM`
+
+Running Prerequisite: JRE 8 installed
 
 ## Result:
 
