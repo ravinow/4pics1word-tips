@@ -1,6 +1,6 @@
 # 4pics1word-tips
 
-Generate words from dictionary for the iOS game *4 Pics 1 Word*!
+Generate words from dictionary for the popular iOS game *4 Pics 1 Word*!
 
 ## Usage:
 
