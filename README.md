@@ -8,7 +8,7 @@ Generate words from dictionary for the popular iOS game *4 Pics 1 Word*!
 
 Parameter 1 `'*****'` represents the target word having 5 letters and these letters can be anything. If you've already got a tip on a letter, you can specify it like: `'*A**E'`.
 
-Parameter 2 'DLKSQEIOUCNM' represents the letters given to form the word
+Parameter 2 `'DLKSQEIOUCNM'` represents the letters given to form the word
 
 ## Prerequisite:
 
