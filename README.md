@@ -10,7 +10,7 @@ Parameter 1 `'*****'` represents the target word having 5 letters and these lett
 
 Parameter 2 'DLKSQEIOUCNM' represents the letters given to form the word
 
-## Running Prerequisite
+## Prerequisite:
 
 JRE 8 installed
 
@@ -61,12 +61,12 @@ GuessWord.listWords("*****", "DLKSQEIOUCNM")
 
 The dictionary file has to be plain text file with one word in each line. And each word can then be followed by a tab and its explanation.
 
-## Compiling
+## Compiling:
 
 Use any Java IDE such as Eclipse to create a project and include the source code, then you can edit and re-compile the program.
 
 Use `make` command to generate the jar package.
 
-## Author
+## Author:
 Cheng Chang 2016
 
