@@ -16,12 +16,14 @@ Require: **JRE 8**
 
 A list of 5-letter words that can be comprised of given letters will be listed, as well as their Chinese explanations. 
 
-> dunce	n.劣学生,傻瓜
-> dulse	n.[植] 掌状红皮藻
-> semon	n.[语](层次语法中的)语义子,义符
-> snick	n.刻痕v.刻细痕于
-> snide	n.骗子,卑鄙勾当,赝品,假珠宝adj.伪造的,不诚实的,卑鄙的,暗讽的
-> ...
+```
+dunce	n.劣学生,傻瓜
+dulse	n.[植] 掌状红皮藻
+semon	n.[语](层次语法中的)语义子,义符
+snick	n.刻痕v.刻细痕于
+snide	n.骗子,卑鄙勾当,赝品,假珠宝adj.伪造的,不诚实的,卑鄙的,暗讽的
+...
+```
 
 ## Programmatic Usage:
 
@@ -30,7 +32,7 @@ import com.sshwind.*;
 
 ...
 
-GuessWord.listWords("*****", "DLKSQEIOUCNM)
+GuessWord.listWords("*****", "DLKSQEIOUCNM")
 			.forEach(System.out::println);
 ```
 
@@ -51,7 +53,7 @@ import com.sshwind.*;
 
 Dict.loadFromFile("dict_file.txt");
 
-GuessWord.listWords("*****", "DLKSQEIOUCNM)
+GuessWord.listWords("*****", "DLKSQEIOUCNM")
 			.forEach(System.out::println);
 ```
 
@@ -64,5 +66,5 @@ Use any Java IDE such as Eclipse to create a project and include the source code
 Use `make` command to generate the jar package.
 
 ## Author
-Cheng Chang
+Cheng Chang 2016
 
