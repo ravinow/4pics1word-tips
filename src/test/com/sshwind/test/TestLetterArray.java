@@ -9,14 +9,14 @@ import com.sshwind.LetterArray;
 public class TestLetterArray {
 
 	@Test
-	public void testIsConstructable() {
+	public void testIsConstructible() {
 		LetterArray a = new LetterArray("ABC");
-		assertTrue(a.isConstructable("abc"));
-		assertTrue(a.isConstructable("bac"));
-		assertTrue(a.isConstructable("ab"));
-		assertTrue(a.isConstructable(""));
-		assertFalse(a.isConstructable("bad"));
-		assertFalse(a.isConstructable("abac"));
+		assertTrue(a.isConstructible("abc"));
+		assertTrue(a.isConstructible("bac"));
+		assertTrue(a.isConstructible("ab"));
+		assertTrue(a.isConstructible(""));
+		assertFalse(a.isConstructible("bad"));
+		assertFalse(a.isConstructible("abac"));
 	}
 
 }
